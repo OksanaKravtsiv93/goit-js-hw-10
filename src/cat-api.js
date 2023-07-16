@@ -73,9 +73,6 @@ export const fetchBreeds = () => {
     .finally(() => {
       hideLoader();
       showBreedSelect();
-      new SlimSelect({
-        select: '#single',
-      });
     });
 };
 
